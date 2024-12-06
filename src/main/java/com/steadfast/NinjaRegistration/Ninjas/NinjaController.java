@@ -3,7 +3,7 @@ package com.steadfast.NinjaRegistration.Ninjas;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping
+@RequestMapping("/ninjas")
 public class NinjaController {
 
     @GetMapping("/welcome")
