@@ -1,12 +1,18 @@
 package com.steadfast.NinjaRegistration.Missions;
 
-import com.steadfast.NinjaRegistration.NinjaModel;
+import com.steadfast.NinjaRegistration.Ninjas.NinjaModel;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.List;
 
 @Entity
 @Table(name = "tb_missions")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class MissionsModel {
 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
