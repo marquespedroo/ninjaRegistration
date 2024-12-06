@@ -31,8 +31,8 @@ public class NinjaModel {
     private int age;
 
     @ManyToOne
-    @Column(name = "mission_id")
-    private List<MissionsModel> missions;
+    @JoinColumn(name = "mission_id")
+    private MissionsModel missions;
 
 
 }

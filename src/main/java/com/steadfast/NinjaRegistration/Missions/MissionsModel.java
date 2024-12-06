@@ -15,6 +15,7 @@ import java.util.List;
 @AllArgsConstructor
 public class MissionsModel {
 
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
@@ -25,7 +26,6 @@ public class MissionsModel {
     private String description;
 
     @OneToMany(mappedBy = "missions")
-    @JoinColumn(name = "mission_id")
     private List<NinjaModel> ninja;
 
     }
