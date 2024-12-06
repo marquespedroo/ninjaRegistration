@@ -1,4 +1,4 @@
-package com.steadfast.NinjaRegistration;
+package com.steadfast.NinjaRegistration.Ninjas;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
