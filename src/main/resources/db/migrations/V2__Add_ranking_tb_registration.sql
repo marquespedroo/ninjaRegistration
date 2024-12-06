@@ -1,0 +1,2 @@
+ALTER TABLE tb_registration
+ADD COLUMN rank VARCHAR(255);
